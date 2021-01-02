@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/137/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/138/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/137/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zato4ka/CLionProjects/Corewar
+CMAKE_SOURCE_DIR = /home/zato4ka/gitcor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zato4ka/CLionProjects/Corewar/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zato4ka/gitcor/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Corewar.dir/depend.make
@@ -79,198 +79,198 @@ include CMakeFiles/Corewar.dir/flags.make
 
 CMakeFiles/Corewar.dir/asm/add.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/asm/add.c.o: ../asm/add.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Corewar.dir/asm/add.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/add.c.o   -c /home/zato4ka/CLionProjects/Corewar/asm/add.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/gitcor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Corewar.dir/asm/add.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/add.c.o   -c /home/zato4ka/gitcor/asm/add.c
 
 CMakeFiles/Corewar.dir/asm/add.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/asm/add.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/CLionProjects/Corewar/asm/add.c > CMakeFiles/Corewar.dir/asm/add.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/gitcor/asm/add.c > CMakeFiles/Corewar.dir/asm/add.c.i
 
 CMakeFiles/Corewar.dir/asm/add.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/asm/add.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/CLionProjects/Corewar/asm/add.c -o CMakeFiles/Corewar.dir/asm/add.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/gitcor/asm/add.c -o CMakeFiles/Corewar.dir/asm/add.c.s
 
 CMakeFiles/Corewar.dir/asm/dlc_read.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/asm/dlc_read.c.o: ../asm/dlc_read.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Corewar.dir/asm/dlc_read.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/dlc_read.c.o   -c /home/zato4ka/CLionProjects/Corewar/asm/dlc_read.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/gitcor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Corewar.dir/asm/dlc_read.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/dlc_read.c.o   -c /home/zato4ka/gitcor/asm/dlc_read.c
 
 CMakeFiles/Corewar.dir/asm/dlc_read.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/asm/dlc_read.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/CLionProjects/Corewar/asm/dlc_read.c > CMakeFiles/Corewar.dir/asm/dlc_read.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/gitcor/asm/dlc_read.c > CMakeFiles/Corewar.dir/asm/dlc_read.c.i
 
 CMakeFiles/Corewar.dir/asm/dlc_read.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/asm/dlc_read.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/CLionProjects/Corewar/asm/dlc_read.c -o CMakeFiles/Corewar.dir/asm/dlc_read.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/gitcor/asm/dlc_read.c -o CMakeFiles/Corewar.dir/asm/dlc_read.c.s
 
 CMakeFiles/Corewar.dir/asm/free.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/asm/free.c.o: ../asm/free.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Corewar.dir/asm/free.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/free.c.o   -c /home/zato4ka/CLionProjects/Corewar/asm/free.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/gitcor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Corewar.dir/asm/free.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/free.c.o   -c /home/zato4ka/gitcor/asm/free.c
 
 CMakeFiles/Corewar.dir/asm/free.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/asm/free.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/CLionProjects/Corewar/asm/free.c > CMakeFiles/Corewar.dir/asm/free.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/gitcor/asm/free.c > CMakeFiles/Corewar.dir/asm/free.c.i
 
 CMakeFiles/Corewar.dir/asm/free.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/asm/free.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/CLionProjects/Corewar/asm/free.c -o CMakeFiles/Corewar.dir/asm/free.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/gitcor/asm/free.c -o CMakeFiles/Corewar.dir/asm/free.c.s
 
 CMakeFiles/Corewar.dir/asm/get.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/asm/get.c.o: ../asm/get.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Corewar.dir/asm/get.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/get.c.o   -c /home/zato4ka/CLionProjects/Corewar/asm/get.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/gitcor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Corewar.dir/asm/get.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/get.c.o   -c /home/zato4ka/gitcor/asm/get.c
 
 CMakeFiles/Corewar.dir/asm/get.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/asm/get.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/CLionProjects/Corewar/asm/get.c > CMakeFiles/Corewar.dir/asm/get.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/gitcor/asm/get.c > CMakeFiles/Corewar.dir/asm/get.c.i
 
 CMakeFiles/Corewar.dir/asm/get.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/asm/get.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/CLionProjects/Corewar/asm/get.c -o CMakeFiles/Corewar.dir/asm/get.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/gitcor/asm/get.c -o CMakeFiles/Corewar.dir/asm/get.c.s
 
 CMakeFiles/Corewar.dir/asm/get_bytes.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/asm/get_bytes.c.o: ../asm/get_bytes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Corewar.dir/asm/get_bytes.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/get_bytes.c.o   -c /home/zato4ka/CLionProjects/Corewar/asm/get_bytes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/gitcor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Corewar.dir/asm/get_bytes.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/get_bytes.c.o   -c /home/zato4ka/gitcor/asm/get_bytes.c
 
 CMakeFiles/Corewar.dir/asm/get_bytes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/asm/get_bytes.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/CLionProjects/Corewar/asm/get_bytes.c > CMakeFiles/Corewar.dir/asm/get_bytes.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/gitcor/asm/get_bytes.c > CMakeFiles/Corewar.dir/asm/get_bytes.c.i
 
 CMakeFiles/Corewar.dir/asm/get_bytes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/asm/get_bytes.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/CLionProjects/Corewar/asm/get_bytes.c -o CMakeFiles/Corewar.dir/asm/get_bytes.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/gitcor/asm/get_bytes.c -o CMakeFiles/Corewar.dir/asm/get_bytes.c.s
 
 CMakeFiles/Corewar.dir/asm/get_type_arg.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/asm/get_type_arg.c.o: ../asm/get_type_arg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Corewar.dir/asm/get_type_arg.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/get_type_arg.c.o   -c /home/zato4ka/CLionProjects/Corewar/asm/get_type_arg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/gitcor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Corewar.dir/asm/get_type_arg.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/get_type_arg.c.o   -c /home/zato4ka/gitcor/asm/get_type_arg.c
 
 CMakeFiles/Corewar.dir/asm/get_type_arg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/asm/get_type_arg.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/CLionProjects/Corewar/asm/get_type_arg.c > CMakeFiles/Corewar.dir/asm/get_type_arg.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/gitcor/asm/get_type_arg.c > CMakeFiles/Corewar.dir/asm/get_type_arg.c.i
 
 CMakeFiles/Corewar.dir/asm/get_type_arg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/asm/get_type_arg.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/CLionProjects/Corewar/asm/get_type_arg.c -o CMakeFiles/Corewar.dir/asm/get_type_arg.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/gitcor/asm/get_type_arg.c -o CMakeFiles/Corewar.dir/asm/get_type_arg.c.s
 
 CMakeFiles/Corewar.dir/asm/init.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/asm/init.c.o: ../asm/init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Corewar.dir/asm/init.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/init.c.o   -c /home/zato4ka/CLionProjects/Corewar/asm/init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/gitcor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Corewar.dir/asm/init.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/init.c.o   -c /home/zato4ka/gitcor/asm/init.c
 
 CMakeFiles/Corewar.dir/asm/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/asm/init.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/CLionProjects/Corewar/asm/init.c > CMakeFiles/Corewar.dir/asm/init.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/gitcor/asm/init.c > CMakeFiles/Corewar.dir/asm/init.c.i
 
 CMakeFiles/Corewar.dir/asm/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/asm/init.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/CLionProjects/Corewar/asm/init.c -o CMakeFiles/Corewar.dir/asm/init.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/gitcor/asm/init.c -o CMakeFiles/Corewar.dir/asm/init.c.s
 
 CMakeFiles/Corewar.dir/asm/main.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/asm/main.c.o: ../asm/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Corewar.dir/asm/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/main.c.o   -c /home/zato4ka/CLionProjects/Corewar/asm/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/gitcor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Corewar.dir/asm/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/main.c.o   -c /home/zato4ka/gitcor/asm/main.c
 
 CMakeFiles/Corewar.dir/asm/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/asm/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/CLionProjects/Corewar/asm/main.c > CMakeFiles/Corewar.dir/asm/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/gitcor/asm/main.c > CMakeFiles/Corewar.dir/asm/main.c.i
 
 CMakeFiles/Corewar.dir/asm/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/asm/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/CLionProjects/Corewar/asm/main.c -o CMakeFiles/Corewar.dir/asm/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/gitcor/asm/main.c -o CMakeFiles/Corewar.dir/asm/main.c.s
 
 CMakeFiles/Corewar.dir/asm/op.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/asm/op.c.o: ../asm/op.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Corewar.dir/asm/op.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/op.c.o   -c /home/zato4ka/CLionProjects/Corewar/asm/op.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/gitcor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Corewar.dir/asm/op.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/op.c.o   -c /home/zato4ka/gitcor/asm/op.c
 
 CMakeFiles/Corewar.dir/asm/op.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/asm/op.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/CLionProjects/Corewar/asm/op.c > CMakeFiles/Corewar.dir/asm/op.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/gitcor/asm/op.c > CMakeFiles/Corewar.dir/asm/op.c.i
 
 CMakeFiles/Corewar.dir/asm/op.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/asm/op.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/CLionProjects/Corewar/asm/op.c -o CMakeFiles/Corewar.dir/asm/op.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/gitcor/asm/op.c -o CMakeFiles/Corewar.dir/asm/op.c.s
 
 CMakeFiles/Corewar.dir/asm/open_file.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/asm/open_file.c.o: ../asm/open_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Corewar.dir/asm/open_file.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/open_file.c.o   -c /home/zato4ka/CLionProjects/Corewar/asm/open_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/gitcor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Corewar.dir/asm/open_file.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/open_file.c.o   -c /home/zato4ka/gitcor/asm/open_file.c
 
 CMakeFiles/Corewar.dir/asm/open_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/asm/open_file.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/CLionProjects/Corewar/asm/open_file.c > CMakeFiles/Corewar.dir/asm/open_file.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/gitcor/asm/open_file.c > CMakeFiles/Corewar.dir/asm/open_file.c.i
 
 CMakeFiles/Corewar.dir/asm/open_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/asm/open_file.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/CLionProjects/Corewar/asm/open_file.c -o CMakeFiles/Corewar.dir/asm/open_file.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/gitcor/asm/open_file.c -o CMakeFiles/Corewar.dir/asm/open_file.c.s
 
 CMakeFiles/Corewar.dir/asm/pars_line.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/asm/pars_line.c.o: ../asm/pars_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Corewar.dir/asm/pars_line.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/pars_line.c.o   -c /home/zato4ka/CLionProjects/Corewar/asm/pars_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/gitcor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Corewar.dir/asm/pars_line.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/pars_line.c.o   -c /home/zato4ka/gitcor/asm/pars_line.c
 
 CMakeFiles/Corewar.dir/asm/pars_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/asm/pars_line.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/CLionProjects/Corewar/asm/pars_line.c > CMakeFiles/Corewar.dir/asm/pars_line.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/gitcor/asm/pars_line.c > CMakeFiles/Corewar.dir/asm/pars_line.c.i
 
 CMakeFiles/Corewar.dir/asm/pars_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/asm/pars_line.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/CLionProjects/Corewar/asm/pars_line.c -o CMakeFiles/Corewar.dir/asm/pars_line.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/gitcor/asm/pars_line.c -o CMakeFiles/Corewar.dir/asm/pars_line.c.s
 
 CMakeFiles/Corewar.dir/asm/read_file.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/asm/read_file.c.o: ../asm/read_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Corewar.dir/asm/read_file.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/read_file.c.o   -c /home/zato4ka/CLionProjects/Corewar/asm/read_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/gitcor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Corewar.dir/asm/read_file.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/read_file.c.o   -c /home/zato4ka/gitcor/asm/read_file.c
 
 CMakeFiles/Corewar.dir/asm/read_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/asm/read_file.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/CLionProjects/Corewar/asm/read_file.c > CMakeFiles/Corewar.dir/asm/read_file.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/gitcor/asm/read_file.c > CMakeFiles/Corewar.dir/asm/read_file.c.i
 
 CMakeFiles/Corewar.dir/asm/read_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/asm/read_file.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/CLionProjects/Corewar/asm/read_file.c -o CMakeFiles/Corewar.dir/asm/read_file.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/gitcor/asm/read_file.c -o CMakeFiles/Corewar.dir/asm/read_file.c.s
 
 CMakeFiles/Corewar.dir/asm/translate.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/asm/translate.c.o: ../asm/translate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Corewar.dir/asm/translate.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/translate.c.o   -c /home/zato4ka/CLionProjects/Corewar/asm/translate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/gitcor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Corewar.dir/asm/translate.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/translate.c.o   -c /home/zato4ka/gitcor/asm/translate.c
 
 CMakeFiles/Corewar.dir/asm/translate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/asm/translate.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/CLionProjects/Corewar/asm/translate.c > CMakeFiles/Corewar.dir/asm/translate.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/gitcor/asm/translate.c > CMakeFiles/Corewar.dir/asm/translate.c.i
 
 CMakeFiles/Corewar.dir/asm/translate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/asm/translate.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/CLionProjects/Corewar/asm/translate.c -o CMakeFiles/Corewar.dir/asm/translate.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/gitcor/asm/translate.c -o CMakeFiles/Corewar.dir/asm/translate.c.s
 
 CMakeFiles/Corewar.dir/asm/trash_fun.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/asm/trash_fun.c.o: ../asm/trash_fun.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Corewar.dir/asm/trash_fun.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/trash_fun.c.o   -c /home/zato4ka/CLionProjects/Corewar/asm/trash_fun.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/gitcor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Corewar.dir/asm/trash_fun.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/trash_fun.c.o   -c /home/zato4ka/gitcor/asm/trash_fun.c
 
 CMakeFiles/Corewar.dir/asm/trash_fun.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/asm/trash_fun.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/CLionProjects/Corewar/asm/trash_fun.c > CMakeFiles/Corewar.dir/asm/trash_fun.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/gitcor/asm/trash_fun.c > CMakeFiles/Corewar.dir/asm/trash_fun.c.i
 
 CMakeFiles/Corewar.dir/asm/trash_fun.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/asm/trash_fun.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/CLionProjects/Corewar/asm/trash_fun.c -o CMakeFiles/Corewar.dir/asm/trash_fun.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/gitcor/asm/trash_fun.c -o CMakeFiles/Corewar.dir/asm/trash_fun.c.s
 
 CMakeFiles/Corewar.dir/asm/bonus.c.o: CMakeFiles/Corewar.dir/flags.make
 CMakeFiles/Corewar.dir/asm/bonus.c.o: ../asm/bonus.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Corewar.dir/asm/bonus.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/bonus.c.o   -c /home/zato4ka/CLionProjects/Corewar/asm/bonus.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zato4ka/gitcor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Corewar.dir/asm/bonus.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Corewar.dir/asm/bonus.c.o   -c /home/zato4ka/gitcor/asm/bonus.c
 
 CMakeFiles/Corewar.dir/asm/bonus.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Corewar.dir/asm/bonus.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/CLionProjects/Corewar/asm/bonus.c > CMakeFiles/Corewar.dir/asm/bonus.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zato4ka/gitcor/asm/bonus.c > CMakeFiles/Corewar.dir/asm/bonus.c.i
 
 CMakeFiles/Corewar.dir/asm/bonus.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Corewar.dir/asm/bonus.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/CLionProjects/Corewar/asm/bonus.c -o CMakeFiles/Corewar.dir/asm/bonus.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zato4ka/gitcor/asm/bonus.c -o CMakeFiles/Corewar.dir/asm/bonus.c.s
 
 # Object files for target Corewar
 Corewar_OBJECTS = \
@@ -311,7 +311,7 @@ Corewar: CMakeFiles/Corewar.dir/asm/bonus.c.o
 Corewar: CMakeFiles/Corewar.dir/build.make
 Corewar: ../libft/libft.a
 Corewar: CMakeFiles/Corewar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C executable Corewar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zato4ka/gitcor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C executable Corewar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Corewar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -324,6 +324,6 @@ CMakeFiles/Corewar.dir/clean:
 .PHONY : CMakeFiles/Corewar.dir/clean
 
 CMakeFiles/Corewar.dir/depend:
-	cd /home/zato4ka/CLionProjects/Corewar/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zato4ka/CLionProjects/Corewar /home/zato4ka/CLionProjects/Corewar /home/zato4ka/CLionProjects/Corewar/cmake-build-debug /home/zato4ka/CLionProjects/Corewar/cmake-build-debug /home/zato4ka/CLionProjects/Corewar/cmake-build-debug/CMakeFiles/Corewar.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zato4ka/gitcor/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zato4ka/gitcor /home/zato4ka/gitcor /home/zato4ka/gitcor/cmake-build-debug /home/zato4ka/gitcor/cmake-build-debug /home/zato4ka/gitcor/cmake-build-debug/CMakeFiles/Corewar.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Corewar.dir/depend
 

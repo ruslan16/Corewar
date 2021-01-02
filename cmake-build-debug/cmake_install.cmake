@@ -1,4 +1,4 @@
-# Install script for directory: /home/zato4ka/CLionProjects/Corewar
+# Install script for directory: /home/zato4ka/gitcor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zato4ka/gitcor/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

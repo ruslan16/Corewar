@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/zato4ka/CLionProjects/Corewar/includes -I/home/zato4ka/CLionProjects/Corewar/includes/asm -I/home/zato4ka/CLionProjects/Corewar/includes/system -I/home/zato4ka/CLionProjects/Corewar/libft/includes 
+C_INCLUDES = -I/home/zato4ka/gitcor/includes -I/home/zato4ka/gitcor/includes/asm -I/home/zato4ka/gitcor/includes/system -I/home/zato4ka/gitcor/libft/includes 
 
