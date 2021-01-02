@@ -1,3 +1,0 @@
-/home/zato4ka/gitcor/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/zato4ka/gitcor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/zato4ka/gitcor/cmake-build-debug/CMakeFiles/Corewar.dir
