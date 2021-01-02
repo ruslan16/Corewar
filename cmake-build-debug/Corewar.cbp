@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Corewar"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zato4ka/CLionProjects/Corewar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zato4ka/CLionProjects/Corewar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zato4ka/CLionProjects/Corewar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Corewar">
+				<Option output="/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Corewar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zato4ka/CLionProjects/Corewar/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zato4ka/CLionProjects/Corewar/includes"/>
+					<Add directory="/home/zato4ka/CLionProjects/Corewar/includes/asm"/>
+					<Add directory="/home/zato4ka/CLionProjects/Corewar/includes/system"/>
+					<Add directory="/home/zato4ka/CLionProjects/Corewar/libft/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 Corewar"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Corewar/fast">
+				<Option output="/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Corewar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zato4ka/CLionProjects/Corewar/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zato4ka/CLionProjects/Corewar/includes"/>
+					<Add directory="/home/zato4ka/CLionProjects/Corewar/includes/asm"/>
+					<Add directory="/home/zato4ka/CLionProjects/Corewar/includes/system"/>
+					<Add directory="/home/zato4ka/CLionProjects/Corewar/libft/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 Corewar/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zato4ka/CLionProjects/Corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zato4ka/CLionProjects/Corewar/asm/add.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/home/zato4ka/CLionProjects/Corewar/asm/bonus.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/home/zato4ka/CLionProjects/Corewar/asm/dlc_read.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/home/zato4ka/CLionProjects/Corewar/asm/free.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/home/zato4ka/CLionProjects/Corewar/asm/get.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/home/zato4ka/CLionProjects/Corewar/asm/get_bytes.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/home/zato4ka/CLionProjects/Corewar/asm/get_type_arg.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/home/zato4ka/CLionProjects/Corewar/asm/init.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/home/zato4ka/CLionProjects/Corewar/asm/main.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/home/zato4ka/CLionProjects/Corewar/asm/op.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/home/zato4ka/CLionProjects/Corewar/asm/open_file.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/home/zato4ka/CLionProjects/Corewar/asm/pars_line.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/home/zato4ka/CLionProjects/Corewar/asm/read_file.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/home/zato4ka/CLionProjects/Corewar/asm/translate.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/home/zato4ka/CLionProjects/Corewar/asm/trash_fun.c">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/home/zato4ka/CLionProjects/Corewar/includes/asm/asm.h">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/home/zato4ka/CLionProjects/Corewar/includes/system/op.h">
+			<Option target="Corewar"/>
+		</Unit>
+		<Unit filename="/home/zato4ka/CLionProjects/Corewar/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
