@@ -13,7 +13,7 @@
 DSM_NAME = dsm
 
 CC = gcc
-FLAGS = -Wall -Werror -Wextra -O3
+FLAGS = -Wall
 
 # Libraries and Includes
 
@@ -85,7 +85,7 @@ RESET = \033[0m
 all: $(DSM_NAME)
 
 $(DSM_NAME): $(FT_PRINTF) $(DSM_OBJECTS_DIRECTORY) $(DSM_OBJECTS)
-	@$(CC) $(FLAGS) $(DSM_LIBRARIES) $(DSM_INCLUDES) $(DSM_OBJECTS) -o $(DSM_NAME)
+	@$(CC) $(FLAGS) $(DSM_OBJECTS) $(DSM_LIBRARIES) $(DSM_INCLUDES) -o $(DSM_NAME)
 	@echo "\n$(DSM_NAME): $(GREEN)object files were created$(RESET)"
 	@echo "$(DSM_NAME): $(GREEN)$(DSM_NAME) was created$(RESET)"
 

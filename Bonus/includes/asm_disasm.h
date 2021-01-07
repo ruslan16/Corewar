@@ -19,11 +19,11 @@
 # include <errno.h>
 # include <stdio.h>
 # include "asm_disasm.h"
-# include "../libft/includes/ft_printf.h"
+# include "ft_printf.h"
 # include "asm_error.h"
 # include "op.h"
 # include "asm_op.h"
-# include "../libft/includes/libft.h"
+# include "libft.h"
 
 # define INDEX(X) ((X) - 1)
 
