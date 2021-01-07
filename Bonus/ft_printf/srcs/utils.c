@@ -82,11 +82,7 @@ long double	ft_power(intmax_t n, int i)
 uintmax_t	ft_round(long double n)
 {
 	uintmax_t	tmp;
-	int			flag;
-	int			i;
 
-	flag = 0;
-	i = -1;
 	if (n > UINTMAX_DOUBLE)
 		return (0);
 	else if (n * 10 > UINTMAX_DOUBLE)

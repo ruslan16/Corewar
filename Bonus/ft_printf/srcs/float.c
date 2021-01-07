@@ -12,6 +12,15 @@
 
 #include "ft_printf.h"
 
+void	print_float_d(t_struct *f, char *int_part, char *dec_part)
+{
+	float_print_spaces(f);
+	float_print_sign(f);
+	float_print_zeros(f);
+	float_print_value(f, int_part, dec_part);
+	float_print_spaces2(f);
+}
+
 void	print_float(t_struct *f, va_list ap)
 {
 	long double	n;
@@ -28,15 +37,14 @@ void	print_float(t_struct *f, va_list ap)
 	n = (n < 0) ? n * (-1) : n;
 	tmp = n * ft_power(10, f->precision);
 	while (tmp > UINTMAX_DOUBLE)
-		(tmp = tmp / 10) && f->offset++;
+	{
+		tmp = tmp / 10;
+		f->offset++;
+	}
 	f->precision -= f->offset;
 	n_round = ft_round(tmp);
 	dec_part = float_get_dec_part(f, n_round);
 	int_part = float_get_int_part(f, n_round);
 	f->len = float_get_output_len(f, int_part);
-	float_print_spaces(f);
-	float_print_sign(f);
-	float_print_zeros(f);
-	float_print_value(f, int_part, dec_part);
-	float_print_spaces2(f);
+	print_float_d(f, int_part, dec_part);
 }

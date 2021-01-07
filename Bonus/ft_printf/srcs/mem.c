@@ -60,9 +60,6 @@ void	memprec(const char *format, t_struct *f, int *pos)
 
 void	memmod(const char *format, t_struct *f, int *pos)
 {
-	int	n;
-
-	n = 0;
 	if (ft_strchr(MOD, format[*pos]))
 	{
 		if (format[*pos] == 'h')
