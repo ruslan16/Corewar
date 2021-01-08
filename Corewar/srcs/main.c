@@ -6,7 +6,7 @@
 /*   By: admin <admin@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/13 04:35:03 by nsance            #+#    #+#             */
-/*   Updated: 2021/01/08 23:22:11 by admin            ###   ########.fr       */
+/*   Updated: 2021/01/08 23:56:15 by admin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,9 +28,7 @@ static void	show_help(t_error err_id, char **argv, int cur_arg)
 	ft_printf("OPTIONS:\n");
 	ft_printf("  --dump <cycle>\tDumps memory at specified cycle then "
 			"exits\n");
-	ft_printf("  --debug <level>\tEnable debug mode (levels: 1, 2 or 3)\n");
 	ft_printf("  -n [id] <champion>\tUse custom id for champion\n");
-	ft_printf("  -v\t\t\tEnable visual mode\n");
 }
 
 static void	run_vm(t_env *env)
