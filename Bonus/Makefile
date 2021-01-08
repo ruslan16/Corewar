@@ -12,7 +12,7 @@
 
 DSM_NAME = dsm
 
-CC = gcc
+CC = clang
 FLAGS = -Wall
 
 # Libraries and Includes
