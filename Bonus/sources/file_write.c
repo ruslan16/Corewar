@@ -6,7 +6,7 @@
 /*   By: tmlkshk <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/06 17:22:26 by tmlkshk           #+#    #+#             */
-/*   Updated: 2021/01/06 17:22:29 by tmlkshk          ###   ########.fr       */
+/*   Updated: 2021/01/08 12:35:24 by sirvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,17 +37,26 @@ void	do_write(t_statement *curr, unsigned y, int fd)
 		ft_putstr_fd(",", fd);
 }
 
+void	write_name_comment(int fd, t_parser *parser)
+{
+	ft_putstr_fd(".name ", fd);
+	write(fd, "\"", 1);
+	ft_putstr_fd(parser->name, fd);
+	write(fd, "\"", 1);
+	ft_putstr_fd("\n", fd);
+	ft_putstr_fd(".comment ", fd);
+	write(fd, "\"", 1);
+	ft_putstr_fd(parser->comment, fd);
+	write(fd, "\"", 1);
+	ft_putstr_fd("\n\n", fd);
+}
+
 void	write_dsm_file(int fd, t_parser *parser)
 {
 	t_statement	*curr;
 	unsigned	y;
 
-	ft_putstr_fd(".name ", fd);
-	ft_putstr_fd(parser->name, fd);
-	ft_putstr_fd("\n", fd);
-	ft_putstr_fd(".comment ", fd);
-	ft_putstr_fd(parser->comment, fd);
-	ft_putstr_fd("\n\n", fd);
+	write_name_comment(fd, parser);
 	curr = parser->statements;
 	while (curr)
 	{
