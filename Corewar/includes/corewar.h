@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   corewar.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nsance <nsance@student.42.fr>          +#+  +:+       +#+        */
+/*   By: admin <admin@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/13 04:35:43 by nsance          #+#    #+#             */
-/*   Updated: 2019/02/23 05:04:32 by nsance         ###   ########.fr       */
+/*   Created: 2020/02/13 04:35:43 by nsance            #+#    #+#             */
+/*   Updated: 2021/01/08 22:50:37 by admin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,8 +48,6 @@ struct			s_env
 	t_list		*champ_lst;
 	t_list		*process_lst;
 	uint8_t		arena[MEM_SIZE];
-	// int			debug;
-	// int			debug_lvl;
 	int			visu;
 	int			cur_cycle;
 	int			dump_cycles;

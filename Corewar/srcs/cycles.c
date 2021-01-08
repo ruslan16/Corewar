@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cycles.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nsance <nsance@student.42.fr>          +#+  +:+       +#+        */
+/*   By: admin <admin@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/14 01:56:50 by nsance          #+#    #+#             */
-/*   Updated: 2019/02/22 23:26:36 by nsance         ###   ########.fr       */
+/*   Created: 2020/02/14 01:56:50 by nsance            #+#    #+#             */
+/*   Updated: 2021/01/08 23:17:40 by admin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,13 +76,6 @@ static int		decrease_cycle_to_die(t_env *env)
 	}
 	return (0);
 }
-
-// static int		visual_manage_cycle(t_env *env)
-// {
-// 	// print_lifebar_visu(env->champ_lst);
-// 	// refresh_champ_lives(env);
-// 	return (key_hook());
-// }
 
 void			run_cycles_loop(t_env *env)
 {

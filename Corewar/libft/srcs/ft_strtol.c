@@ -1,11 +1,17 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strtol.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: admin <admin@student.42.fr>                +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/01/08 22:55:36 by admin             #+#    #+#             */
+/*   Updated: 2021/01/08 23:13:53 by admin            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <limits.h>
 #include "libft.h"
-
-int	ft_isspace(int c)
-{
-	return (c == ' ' || c == '\f' || c == '\n'
-		|| c == '\r' || c == '\t' || c == '\v');
-}
 
 static int		ft_guess_base(const char **str, int base)
 {
@@ -41,7 +47,8 @@ static size_t	ft_skip_spaces(const char *nptr, int *neg)
 	size_t	i;
 
 	i = 0;
-	while (ft_isspace(nptr[i]))
+	while ((nptr[i] == ' ' || nptr[i] == '\n' || nptr[i] == '\t' ||
+			nptr[i] == '\v' || nptr[i] == '\r' || nptr[i] == '\f'))
 		i++;
 	*neg = 0;
 	if (nptr[i] == '+' || nptr[i] == '-')

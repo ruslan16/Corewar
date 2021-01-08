@@ -6,7 +6,7 @@
 /*   By: admin <admin@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/16 21:25:00 by vifonne           #+#    #+#             */
-/*   Updated: 2021/01/02 06:17:18 by admin            ###   ########.fr       */
+/*   Updated: 2021/01/08 23:24:04 by admin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,7 @@
 #include "func_op.h"
 #include "op.h"
 
-
-int			lld(t_env *env, t_process *cur_process, uint8_t *bytes)
+int		lld(t_env *env, t_process *cur_process, uint8_t *bytes)
 {
 	int			ret;
 	t_decode	decode;

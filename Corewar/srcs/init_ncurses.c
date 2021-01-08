@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   init_ncurses.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vifonne <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: admin <admin@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/21 03:11:42 by vifonne           #+#    #+#             */
-/*   Updated: 2019/02/23 00:40:44 by nsance         ###   ########.fr       */
+/*   Created: 2020/02/21 03:11:42 by nsance            #+#    #+#             */
+/*   Updated: 2021/01/08 23:21:02 by admin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,32 +16,6 @@
 #include "visual.h"
 
 t_data	g_data;
-
-// void	init_screen(t_env *env)
-// {
-// 	struct winsize	win;
-
-// 	g_data.env = env;
-// 	g_data.cursor = (t_int2){X_PADD, Y_PADD};
-// 	initscr();
-// 	start_color();
-// 	use_default_colors();
-// 	ioctl(0, TIOCGSIZE, &win);
-// 	curs_set(0);
-// 	sig_handler();
-// 	g_data.hud = subwin(stdscr, win.ws_row - 2,
-// 			win.ws_col - HUD_COL, 1, HUD_COL - 2);
-// 	wborder(stdscr, '|', '|', '-', '-', '+', '+', '+', '+');
-// 	mvwaddstr(stdscr, 0, (win.ws_col * 0.5) - 9, " COREWAR ");
-// 	wborder(g_data.hud, '|', '|', '-', '-', '+', '+', '+', '+');
-// 	nodelay(stdscr, TRUE);
-// 	noecho();
-// 	g_data.win = stdscr;
-// 	g_data.time = SPEED;
-// 	print_init_state(env);
-// 	print_champ(env);
-// 	print_init_hud(env);
-// }
 
 void	init_champ_color(void)
 {

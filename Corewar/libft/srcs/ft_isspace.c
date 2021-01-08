@@ -1,27 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   champion.h                                         :+:      :+:    :+:   */
+/*   ft_isspace.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: admin <admin@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/13 21:32:41 by nsance            #+#    #+#             */
-/*   Updated: 2021/01/08 22:47:37 by admin            ###   ########.fr       */
+/*   Created: 2019/09/16 20:35:32 by etristan          #+#    #+#             */
+/*   Updated: 2021/01/08 23:10:57 by admin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CHAMPION_H
-# define CHAMPION_H
+#include "libft.h"
 
-# include "op.h"
-
-typedef struct	s_champ
+int	ft_isspace_n(int ch)
 {
-	t_header		header;
-	unsigned char	prog[CHAMP_MAX_SIZE];
-	int				live_cycle;
-	int				lives;
-	int				id;
-}				t_champ;
-
-#endif
+	return (ch == ' ' || ch == '\n' || ch == '\t' ||
+			ch == '\v' || ch == '\r' || ch == '\f');
+}

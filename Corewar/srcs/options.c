@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   options.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nsance <nsance@student.42.fr>          +#+  +:+       +#+        */
+/*   By: admin <admin@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/20 06:17:13 by nsance          #+#    #+#             */
-/*   Updated: 2019/02/23 11:12:18 by nsance         ###   ########.fr       */
+/*   Created: 2020/02/20 06:17:13 by nsance            #+#    #+#             */
+/*   Updated: 2021/01/08 23:19:12 by admin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,32 +30,6 @@ static t_error	parse_dump_opt(t_env *env, const char *optarg)
 	env->dump_cycles = (int)dump_cycles;
 	return (ERR_NOERROR);
 }
-
-// static t_error	parse_debug_opt(t_env *env, const char *optarg)
-// {
-// 	long	value;
-// 	char	*endptr;
-
-// 	if (env->visu == VISU_ON)
-// 		return (ERR_OPTCONFLICT);
-// 	else if (optarg == NULL)
-// 		return (ERR_WRONGDEBUGOPT);
-// 	value = ft_strtol(optarg, &endptr, 10);
-// 	if (value != DEBUG_FIRST_LVL
-// 			&& value != DEBUG_SECOND_LVL
-// 			&& value != DEBUG_THIRD_LVL)
-// 		return (ERR_WRONGDEBUGOPT);
-// 	return (ERR_NOERROR);
-// }
-
-// static t_error	parse_visual_opt(t_env *env, const char *optarg)
-// {
-// 	(void)optarg;
-// 	// if (env->debug == DEBUG_ON || env->dump_cycles != -1)
-// 	// 	return (ERR_OPTCONFLICT);
-// 	// env->visu = VISU_ON;
-// 	return (ERR_NOERROR);
-// }
 
 t_error			parse_opts(t_env *env, char **argv, int *cur_arg)
 {

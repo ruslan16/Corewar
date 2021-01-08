@@ -6,7 +6,7 @@
 #    By: admin <admin@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/09 20:27:55 by rciera            #+#    #+#              #
-#    Updated: 2020/12/08 14:20:30 by admin            ###   ########.fr        #
+#    Updated: 2021/01/08 23:06:08 by admin            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -115,7 +115,8 @@ SRC_LIST =	ft_memset.c\
 			ft_arrays.c\
 			ft_lstfree.c\
 			ft_strtol.c\
-			ft_lstpush.c
+			ft_lstpush.c\
+			ft_isspace.c
 
 SRC = $(addprefix $(SRC_DIR), $(SRC_LIST))
 

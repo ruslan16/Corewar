@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   champs.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nsance <nsance@student.42.fr>          +#+  +:+       +#+        */
+/*   By: admin <admin@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/14 01:15:16 by nsance          #+#    #+#             */
-/*   Updated: 2019/02/23 05:20:57 by nsance         ###   ########.fr       */
+/*   Created: 2020/02/14 01:15:16 by nsance            #+#    #+#             */
+/*   Updated: 2021/01/08 23:16:10 by admin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,11 +89,8 @@ void		print_winner_champ(t_env *env)
 	}
 	if (best_champ != NULL)
 	{
-		// if (env->visu == VISU_ON)
-		// 	print_winner_visu((t_champ *)best_champ->content);
-		// else
-			ft_printf("Champion %d (\"%s\") has won!\n"
-					, ((t_champ *)best_champ->content)->id
-					, ((t_champ *)best_champ->content)->header.prog_name);
+		ft_printf("Champion %d (\"%s\") has won!\n"
+				, ((t_champ *)best_champ->content)->id
+				, ((t_champ *)best_champ->content)->header.prog_name);
 	}
 }

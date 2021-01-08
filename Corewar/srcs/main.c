@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: admin <admin@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/13 04:35:03 by nsance          #+#    #+#             */
-/*   Updated: 2020/12/08 13:38:08 by admin            ###   ########.fr       */
+/*   Created: 2020/02/13 04:35:03 by nsance            #+#    #+#             */
+/*   Updated: 2021/01/08 23:22:11 by admin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,8 +39,6 @@ static void	run_vm(t_env *env)
 	size_t	nb_champs;
 	t_list	*cur_champ;
 
-	// if (env->visu == VISU_ON)
-	// 	init_screen(env);
 	idx = 0;
 	nb_champs = ft_lstsize(env->champ_lst);
 	cur_champ = env->champ_lst;
@@ -58,8 +56,6 @@ static void	run_vm(t_env *env)
 	if (env->dump_cycles == -1
 			|| env->dump_cycles > env->cur_cycle)
 		print_winner_champ(env);
-	// if (env->visu == VISU_ON)
-	// 	loop_screen();
 }
 
 int			main(int argc, char **argv)
